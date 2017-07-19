@@ -16,6 +16,7 @@
 		8104AA041EBD291D002437FB /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8104AA011EBD2914002437FB /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8104AA081EBD29F2002437FB /* DatabaseManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8104AA071EBD29F2002437FB /* DatabaseManagement.swift */; };
 		8104AA0A1EBD3932002437FB /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8104AA091EBD3932002437FB /* Product.swift */; };
+		81F3208C1F1F2CC300BA3269 /* SecindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F3208B1F1F2CC300BA3269 /* SecindViewController.swift */; };
 		B941AFF704D0D4519654F688 /* Pods_SqliteExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E6B36F834E0434E314AD399 /* Pods_SqliteExample.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 		8104AA011EBD2914002437FB /* SQLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SQLite.framework; path = "../../Library/Developer/Xcode/DerivedData/SqliteExample-aboftsaellhjqpfdhbdujpwxyokd/Build/Products/Debug-iphonesimulator/SQLite.swift/SQLite.framework"; sourceTree = "<group>"; };
 		8104AA071EBD29F2002437FB /* DatabaseManagement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseManagement.swift; sourceTree = "<group>"; };
 		8104AA091EBD3932002437FB /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		81F3208B1F1F2CC300BA3269 /* SecindViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecindViewController.swift; sourceTree = "<group>"; };
 		8E6B36F834E0434E314AD399 /* Pods_SqliteExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SqliteExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A049A406C6053CF119E50D48 /* Pods-SqliteExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SqliteExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SqliteExample/Pods-SqliteExample.debug.xcconfig"; sourceTree = "<group>"; };
 		EDFFDEF0C83D0BB287F1E9A8 /* Pods-SqliteExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SqliteExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-SqliteExample/Pods-SqliteExample.release.xcconfig"; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				8104A9F61EBD1F98002437FB /* Assets.xcassets */,
 				8104A9F81EBD1F98002437FB /* LaunchScreen.storyboard */,
 				8104A9FB1EBD1F98002437FB /* Info.plist */,
+				81F3208B1F1F2CC300BA3269 /* SecindViewController.swift */,
 			);
 			path = SqliteExample;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8104A9F21EBD1F98002437FB /* ViewController.swift in Sources */,
+				81F3208C1F1F2CC300BA3269 /* SecindViewController.swift in Sources */,
 				8104AA0A1EBD3932002437FB /* Product.swift in Sources */,
 				8104A9F01EBD1F98002437FB /* AppDelegate.swift in Sources */,
 				8104AA081EBD29F2002437FB /* DatabaseManagement.swift in Sources */,
